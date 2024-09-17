@@ -5,31 +5,41 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>AI elenabot</title>
-    <h1>Welcome to your AI elenabot!</h1>
+
+<div class="container">
+<h1>Welcome to elenabot!</h1>
 </head>
+
+
 <header>
-    <h1>Poem generator</h1>
+<h1>Poem generator</h1>
 </header>
 <main>
 <form action="">
 
 <input 
 type="text" 
-placeholder="enter the topic your interested in.." 
+placeholder="Enter the topic your interested in.." 
 autofocus 
-required/>
-<input type="submit" placeholder="submit"/>
+required
+autocomplete="off"
+class="instructions"/>
+
+<input type="submit"
+class="submit-button"/>
 </form>
 
-<div>
+<div class="poem-text-box">
 your poem here
 <br>
 and the rest of it here 
 </div>
-
 </main>
+
+
 <body>
     <script src="src/index.js"></script>
     <footer>This project was coded by <a href="https://github.com/elena-miles">Elena Miles</a> and is open-sourced on <a href="https://github.com/elena-miles/ElenaBot" target="_blank">Github</a> and is hosted on <a href="https://elenabot.netlify.app/" target="_blank">Netlify</a></footer>
+</div>
 </body>
 </html>

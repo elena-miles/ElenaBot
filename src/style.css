@@ -1,1 +1,84 @@
 
+
+body{
+    font-family: 'Roboto', sans-serif;
+    background-color: black;
+    color: white;
+    margin: 0;
+    padding: 0;
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+}
+.container{
+    width: 90%;
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 2rem 0;
+
+}
+
+h1{
+    font-family: 'Playfair Display', serif;
+    color: #BFFF00;
+    font-size: 2.5rem;
+    margin-bottom: 1rem;
+}
+
+p {
+    margin-bottom: 2rem;
+    font-size: 1.1rem;
+}
+
+header{
+margin-bottom: 30px;
+}
+
+form {
+    display: flex;
+    margin-bottom: 2rem;
+    box-shadow:10px 10px 29px 0px rgba(0,0,0,0.67);
+}
+.instructions{
+    flex-grow: 1;
+    padding: 0.75rem;
+    font-size: 1rem;
+    border: 2px solid #BFFF00;
+    background-color: #333;
+    color: white;
+    border-radius: 4px 0 0 4px;
+    margin-right: 8px;
+}
+.submit-button{
+    padding: 16px 24px;
+    font-size: 1rem;
+    background-color: #BFFF00;
+    color: black;
+    border: none;
+    cursor: pointer;
+    border-radius: 0 4px 4px 0;
+}
+button:hover {
+    background-color: #A0FF00;
+}
+
+.poem-text-box{
+    font-size:16px;
+    background-color: white;
+    padding: 20px; 
+    line-height: 24px;
+   border-left: 3px solid black;
+   box-shadow: 10px 10px 29px 0px rgba(0,0,0,0.67);
+}
+footer{
+    margin-top: auto;
+    text-align: center;
+    padding: 1rem 0;
+    font-size: 0.9rem;
+    color: #888;
+}
+footer a {
+            color: #BFFF00;
+            text-decoration: none;
+            margin: 0 0.5 rem
+}
