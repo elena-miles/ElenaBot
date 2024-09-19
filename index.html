@@ -2,6 +2,7 @@
 <html lang="en">
     <link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<script src="https://unpkg.com/typewriter-effect@latest/dist/core.js"></script>
 <link href="https://fonts.googleapis.com/css2?family=Anton&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="src/style.css">
 <head>
@@ -16,12 +17,14 @@
 <header>
     <h1>ElenaBot</h1>
     <h2>Hello! Welcome to
-        <span id="ap-name">ElenaBot</span>,your personal poem generator.
+    <span id="ap-name">ElenaBot</span>,your personal AI poem generator.
     </h2>
 </header>
-<main>
-<form action="">
 
+<main>
+
+
+<form id="poem-generator-form">
 <input 
 type="text" 
 placeholder="Enter your poem promt here..." 
@@ -34,7 +37,7 @@ class="instructions"/>
 class="submit-button"/>
 </form>
 
-<div class="poem-text-box">
+<div class="poem-text-box" id="poem">
 your poem here
 <br>
 and the rest of it here 
