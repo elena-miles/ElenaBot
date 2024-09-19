@@ -1,13 +1,13 @@
 function generatePoem(event) {
   event.preventDefault();
-
   document.querySelector('#poem').innerHTML = "";
   
+ 
   new Typewriter('#poem', {
-      strings:["la tombe dit a la rose"], 
+      strings: ["la tombe dit a la rose"], // Text to type
       autoStart: true,
-      delay: 1, 
-      cursor: null, 
+      delay: 50, // Adjust typing speed
+      cursor: null  // Remove cursor if desired
   });
 }
 
