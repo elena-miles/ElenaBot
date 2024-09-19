@@ -26,6 +26,8 @@ h1{
     font-size: 45px;
     font-family: "Anton", sans-serif;
     font-weight: 200px;
+    margin-top: 5px;
+    margin-bottom: 20px;
 }
 h2{
     font-family: 'Playfair Display', serif;
@@ -91,10 +93,10 @@ button:hover {
 .poem-text-box{
     font-size:16px;
     background-color: white;
-    padding: 20px; 
+    padding: 15px; 
     line-height: 24px;
    border-left: 3px solid black;
-   box-shadow: 10px 10px 29px 0px rgba(0,0,0,0.67);
+   box-shadow: 10px 10px 29px 0px rgba(124, 122, 122, 0.67);
 }
 footer{
     margin-top: auto;

@@ -1,9 +1,10 @@
 function generatePoem(event) {
   event.preventDefault();
+
   document.querySelector('#poem').innerHTML = "";
   
   new Typewriter('#poem', {
-      strings: ["la tombe dit a la rose"], 
+      strings:["la tombe dit a la rose"], 
       autoStart: true,
       delay: 1, 
       cursor: null, 
