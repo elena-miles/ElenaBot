@@ -25,7 +25,7 @@ h1{
     color:white;
     font-size: 45px;
     font-family: "Anton", sans-serif;
-    font-weight: 200px;
+    font-weight: 200;
     margin-top: 5px;
     margin-bottom: 20px;
 }
@@ -46,17 +46,16 @@ margin-bottom: 30px;
 }
 
 #ap-name {
-  
     font-size: 20px;
     font-family: "Anton", sans-serif;
-    font-weight: 40px;
-    background-image: linear-gradient( 90deg, #BFFF00, white);
+    font-weight: 400;
+    background-image: linear-gradient(90deg, #BFFF00, white, #BFFF00);
     background-clip: text;
     color: transparent;
 }
 #gradientedgenerator {
     color: transparent;
-    background-image: linear-gradient(90deg, #BFFF00, white, #BFFF00,);
+    background-image: linear-gradient(90deg, #BFFF00, white, #BFFF00);
     -webkit-background-clip: text;
     background-clip: text;
     display: inline-block;
@@ -96,7 +95,7 @@ button:hover {
     padding: 15px; 
     line-height: 24px;
    border-left: 3px solid black;
-   box-shadow: 10px 10px 29px 0px rgba(124, 122, 122, 0.67);
+   color: black;
 }
 footer{
     margin-top: auto;

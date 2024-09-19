@@ -1,14 +1,8 @@
-function generatePoem(event) {
-  event.preventDefault();
-  document.querySelector('#poem').innerHTML = "";
-  
- 
-  new Typewriter('#poem', {
-      strings: ["la tombe dit a la rose"], // Text to type
-      autoStart: true,
-      delay: 50, // Adjust typing speed
-      cursor: null  // Remove cursor if desired
-  });
+function generatePoem (event) {
+    event.preventDefault();
+    
+    let boxElement = document.querySelector(".poem-text-box");
+    boxElement.innerHTML = "you are a massive dork"; 
 }
 
 let poemFormElement = document.querySelector("#poem-generator-form"); 
