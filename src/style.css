@@ -5,7 +5,7 @@
   }
 
 body{
-    font-family: 'Roboto', sans-serif;
+    font-family: 'Inter', sans-serif;
     background-color: black;
     color: white;
     margin: 0;
@@ -23,22 +23,22 @@ body{
 }
 h1{
     color:white;
-    font-size: 45px;
+    font-size: 48px;
     font-family: "Anton", sans-serif;
     font-weight: 200;
     margin-top: 5px;
     margin-bottom: 20px;
 }
 h2{
-    font-family: 'Playfair Display', serif;
+    font-family: 'Merriweather', serif;
     color: #BFFF00;
-    font-size: 20px;
-    margin-bottom: 15px;
+    font-size: 24px;
+    margin-bottom: 25px;
 }
 
 p {
-    margin-bottom: 2rem;
-    font-size: 1.1rem;
+    margin-bottom: 30px;
+    font-size: 1.2rem;
 }
 
 header{
@@ -69,7 +69,7 @@ form {
 .instructions{
     flex-grow: 1;
     padding: 13px;
-    font-size: 16px;
+    font-size: 18px;
     border: 2px solid #BFFF00;
     background-color: #333;
     color: white;
@@ -90,10 +90,10 @@ button:hover {
 }
 
 .poem-text-box{
-    font-size:16px;
+    font-size:18px;
     background-color: white;
     padding: 15px; 
-    line-height: 24px;
+    line-height: 26px;
    border-left: 3px solid black;
    color: black;
 }
