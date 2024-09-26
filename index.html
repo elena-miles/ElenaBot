@@ -21,16 +21,17 @@
 <header>
     
     <h1>ElenaBot</h1>
-    <h2>Hello! Welcome to
+    <h2>Hi! Welcome to
     <span id="ap-name">ElenaBot</span> your personal AI poem generator.
     </h2>
 </header>
 
 <main>
+    <div class="form-wrapper">
     <form id="poem-generator-form">
         <input 
             type="text" 
-            placeholder="Enter the topic of a French poem..." 
+            placeholder="Enter the topic of your poem..." 
             autofocus 
             required
             autocomplete="off"
@@ -39,6 +40,8 @@
 
         <input type="submit" class="submit-button"/>
     </form>
+    <div class="hint"> i.e : Flower, Dog, Whatever blows your hair back. </div>
+    </div>
 
     <div class="poem-text-box" id="box">
         Your poem will appear here...
