@@ -1,7 +1,9 @@
 function displayPoem (response) {
 console.log(`prompt:${response.data.prompt}`);
+
 let poemBox = document.querySelector("#box");
-poemBox.classList.remove("hidden"); //make box visible
+poemBox.innerHTML = ``;
+
     new Typewriter("#box", {
         strings: response.data.answer,
         autoStart: true,
@@ -20,7 +22,11 @@ function generatePoem (event) {
         let prompt = `User instructions: Generate an English poem about ${instructionsInput.value}`;
         let apiURL = `https://api.shecodes.io/ai/v1/generate?prompt=${prompt}&context=${context}&key=${apiKey}`;
 
-        console.log("⏳ generating response...");
+        let poemBox = document.querySelector("#box");
+        poemBox.classList.remove("hidden"); // Make box visible
+        poemBox.innerHTML = `Generating a poem about ${instructionsInput.value}...`;
+
+        console.log("generating response");
         console.log(`prompt:${prompt}`);
         console.log(`context:${context}`);
 // API request
