@@ -125,15 +125,17 @@ strong{
     color:  #BFFF00;;
 }
 
-@-webkit-keyframes blinker {
-    from {opacity: 1.0;}
-    to {opacity: 0.0;}
-  }
+
 .blink{
-	text-decoration: blink;
-	-webkit-animation-name: blinker;
-	-webkit-animation-duration: 0.6s;
-	-webkit-animation-iteration-count: infinite;
-	-webkit-animation-timing-function: ease-in-out;
-	-webkit-animation-direction: alternate;
+
+    animation: blink 1s linear infinite;
+
+}
+@keyframes blink {
+    25% {opacity: 0.5;
+    }
+    50% {opacity: 0;
+    }
+    75%{ opacity:0.5;
+    }
 }
