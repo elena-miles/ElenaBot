@@ -63,12 +63,14 @@ margin-bottom: 30px;
 form {
     display: flex;
     box-shadow:10px 10px 29px 0px rgba(0,0,0,0.67);
+    border-radius: 0 4px 4px 0; 
 }
 
 .form-wrapper{
     background-color: black;
     margin-bottom: 30px;  
     box-shadow:10px 10px 29px 0px rgba(0,0,0,0.67);
+    max-width: 80%;
 }
 .hint{
     line-height: 1.5;
@@ -82,7 +84,7 @@ form {
     border: 2px solid #BFFF00;
     background-color: #333;
     color: white;
-    border-radius: 4px 0 0 4px;
+    border-radius: 4px;
     margin-right: 8px;
 }
 .submit-button{
@@ -92,7 +94,7 @@ form {
     color: black;
     border: none;
     cursor: pointer;
-    border-radius: 0 4px 4px 0;   
+    border-radius:4px;   
 }
 button:hover {
     background-color: #A0FF00;
@@ -119,7 +121,7 @@ footer{
 footer a {
     color: #BFFF00;
     text-decoration: none;
-    margin: 0 0.5 rem
+    margin: 0 auto;
 }
 strong{
     color:  #BFFF00;;
