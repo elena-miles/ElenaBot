@@ -89,8 +89,8 @@ form {
 }
 .instructions{
     flex-grow: 1;
-    padding: 12px;
-    font-size: 18px;
+    padding: 10px;
+    font-size: 15px;
     border: 2px solid #BFFF00;
     background-color: #2A2A2A;
     color: #ffffff;
@@ -98,8 +98,8 @@ form {
     margin-right: 6px;
 }
 .submit-button{
-    padding: 12px 24px;
-    font-size: 16px;
+    padding: 12px 18px;
+    font-size: 15px;
     background-color: #BFFF00;
     color: #000000;
     border: none;
