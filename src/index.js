@@ -22,6 +22,10 @@ function generatePoem (event) {
         let prompt = `User instructions: Generate an English poem about ${instructionsInput.value}`;
         let apiURL = `https://api.shecodes.io/ai/v1/generate?prompt=${prompt}&context=${context}&key=${apiKey}`;
 
+
+        let userInput = instructionsInput.value.trim().replace(/\s+/g, ' ');
+        let words = userInput.split(' ');
+        
         let poemBox = document.querySelector("#box");
         poemBox.classList.remove("hidden"); // Make box visible
         poemBox.innerHTML = `Generating a poem about ${instructionsInput.value}...`;

@@ -22,18 +22,24 @@ body{
 
 }
 h1{
-    color:white;
+    color:#BFFF00;
     font-size: 48px;
     font-family: "Anton", sans-serif;
     font-weight: 200;
+    margin: 0;
     margin-top: 5px;
     margin-bottom: 20px;
+    text-shadow: 2px 2px 4px rgba(0,0,0,0.5);
+}
+header{
+    text-align: center; 
+    margin-bottom: 30px;
 }
 h2{
     font-family: 'Merriweather', serif;
-    color: #BFFF00;
+    color: #ffffff;
     font-size: 24px;
-    margin-bottom: 25px;
+    margin-top: 22px;
 }
 
 p {
@@ -42,13 +48,15 @@ p {
 }
 
 header{
-margin-bottom: 30px;
+    text-align: center; 
+    margin-bottom: 30px;
 }
 
 #ap-name {
     font-size: 24px;
+    font-weight: 700;
     font-family:'Merriweather', serif;
-    background-image: linear-gradient(90deg, #BFFF00, white, #BFFF00);
+    background-image: linear-gradient(90deg, #BFFF00, #ffffff);
     background-clip: text;
     color: transparent;
 }
@@ -67,34 +75,37 @@ form {
 }
 
 .form-wrapper{
-    background-color: black;
+    background-color:#1E1E1E;
+    padding: 24px;
+    border-radius: 6px;
     margin-bottom: 30px;  
-    box-shadow:10px 10px 29px 0px rgba(0,0,0,0.67);
-    max-width: 80%;
+    box-shadow: 0 4px 9px rgba(0,0,0,0.1);
 }
 .hint{
     line-height: 1.5;
     font-size: 12px;
-    margin-top: 10px;
+    color: #BBBBBB;
+    margin-top: 9px;
 }
 .instructions{
     flex-grow: 1;
-    padding: 13px;
+    padding: 12px;
     font-size: 18px;
     border: 2px solid #BFFF00;
-    background-color: #333;
-    color: white;
+    background-color: #2A2A2A;
+    color: #ffffff;
     border-radius: 4px;
-    margin-right: 8px;
+    margin-right: 6px;
 }
 .submit-button{
-    padding: 16px 24px;
+    padding: 12px 24px;
     font-size: 16px;
     background-color: #BFFF00;
-    color: black;
+    color: #000000;
     border: none;
     cursor: pointer;
-    border-radius:4px;   
+    border-radius:4px;
+    transition: background-color 0.3s ease;   
 }
 button:hover {
     background-color: #A0FF00;
@@ -121,23 +132,20 @@ footer{
 footer a {
     color: #BFFF00;
     text-decoration: none;
-    margin: 0 auto;
+}
+footer a:hover {
+    text-decoration: underline;
 }
 strong{
     color:  #BFFF00;;
 }
 
-
-.blink{
-
-    animation: blink 1s linear infinite;
-
-}
-@keyframes blink {
-    25% {opacity: 0.5;
-    }
-    50% {opacity: 0;
-    }
-    75%{ opacity:0.5;
-    }
+#box {
+    background-color: #1E1E1E;
+    padding: 1.5rem;
+    border-radius: 8px;
+    border-left: 4px solid #BFFF00;
+    font-family: 'Merriweather Sans', serif;
+    line-height: 1.6;
+    margin-bottom: 2rem;
 }
